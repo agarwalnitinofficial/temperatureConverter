@@ -13,11 +13,12 @@ body {
 
 .container {
   max-width: 450px;
-  background: #003333;
+  background: #e1ff00;
   border-radius: 8px;
   box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.4);
   font-family: sans-serif;
   padding: 20px;
+  border: 2px solid #000000;
 }
 
 .title {
@@ -30,11 +31,11 @@ body {
 
 .Temperature-icon {
   font-size: 45px;
-  color: #fff;
+  color: #ffffff;
 }
 
 h1 {
-  color: #fff;
+  color: #010101;
   letter-spacing: 1.2px;
   font-size: 30px;
 }
@@ -58,8 +59,9 @@ input {
   outline: none;
   border-radius: 8px 0 0 8px;
   padding: 0 10px;
+  border: 2px solid #000000;
+  background-color: white;
 }
-
 
 .icon {
   flex: 1;
@@ -68,7 +70,7 @@ input {
   padding: 0 5px;
   text-align: center;
   font-size: 30px;
-  background: #4d5964;
+  background: #000000;
   color: #fff;
   border-radius: 0 8px 8px 0;
 }
@@ -76,6 +78,7 @@ input {
 .button {
   margin-top: 25px;
   text-align: center;
+  
 }
 
 .button button {
@@ -84,12 +87,15 @@ input {
   padding: 10px 30px;
   font-size: 20px;
   font-weight: 600;
-  border-radius: 3px;
+  border-radius: 8px;
   cursor: pointer;
   transition: 0.3s;
+   border: 2px solid #000000;
+
 }
 
 .button button:hover {
   background: #000;
   color: #fff;
+  border-radius: 10px;
 }
